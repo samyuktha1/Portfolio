@@ -7,6 +7,22 @@ import github from '../assests/images/github.svg'
 import resume from '../assests/images/resume.png'
 
 export const NavBar = () => {
+
+  useEffect(() => {
+    const scrollToContact = () => {
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    document.getElementById('connectButton').addEventListener('click', scrollToContact);
+
+    return () => {
+      document.getElementById('connectButton').removeEventListener('click', scrollToContact);
+    };
+  }, []);
+
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
@@ -32,6 +48,10 @@ export const NavBar = () => {
     setActiveLink(value);
   };
 
+  const redirectToContactPage = () => {
+    window.location.href = '/contact'; // Replace '/contact' with the actual path to your contact page
+  };
+
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
@@ -52,10 +72,10 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/nacham-samuktha-77aa83148/"><img src={linkedin} alt="" /></a>
-                <a href="#"><img src={github} alt=""  /></a>
+                <a href="https://github.com/samyuktha1"><img src={github} alt=""  /></a>
                 <a href="https://drive.google.com/file/d/1xvcVQIn-KercImg-qAHigeC1tVFfMJFX/view?usp=sharing"><img src={resume} alt="" /></a>
               </div>
-                <button className="vvd"><span>Let’s Connect</span></button>
+              <button id="connectButton" className="vvd"><span>Let’s Connect</span></button>
             </span>
           </Navbar.Collapse>
         </Container>

@@ -8,6 +8,7 @@ import Qualification from "./components/Qualification/Qualification"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Contact } from './components/Contact';
 import Contact1 from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Projects/>
     <Qualification/>
     <Contact1/>
+    <Footer/>
     </div>
   );
 }
