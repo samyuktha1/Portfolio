@@ -9,10 +9,10 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(70);
   const [index, setIndex] = useState(1);
   const toRotate = [ "Masters Student at IIT","Computer Science Undergraduate"];
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -41,7 +41,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(70);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -63,8 +63,15 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Samukthaaa`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Masters Student at IIT", "Information Technology and Management", "Data Analytics and Management" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm pursuing a master's in Information Technology and Management, specializing in Data Analytics. Previously, I worked for a year at Zemoso as an Associate Software Engineer, developing a health management app using React, TypeScript, and Java. During a two-month internship, I immersed myself in learning diverse technologies, such as HTML, CSS, Git, TypeScript, JavaScript, Angular, and React.</p>
+                <h1>{`Hi! I'm Samuktha`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Masters Student at IIT", "Information Technology and Management", "Data Analytics and Management" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>
+                  Currently pursuing my Master's in Information Technology and Management, specializing in Data Analytics and
+                   Management, I bring nearly two years of hands-on experience at Zemoso Labs, where I advanced from intern to a 
+                   full-time role, developing and delivering a healthcare application. I've also gained one year of experience at Accenture Technologies.
+                    Additionally, I've been awarded a teaching assistantship this semester in Android web development, 
+                  further enhancing my technical skills and mentorship abilities.
+
+</p>
                   <button onClick={scrollToContact}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

@@ -6,7 +6,7 @@ import { Skills } from './components/Skiils';
 import Projects from './components/Projects';
 import Qualification from "./components/Qualification/Qualification"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Contact } from './components/Contact';
+import Testimonials from "./components/Testimonials/Testimonials";
 import Contact1 from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
@@ -18,6 +18,7 @@ function App() {
     <Skills/>
     <Projects/>
     <Qualification/>
+    <Testimonials/>
     <Contact1/>
     <Footer/>
     </div>
