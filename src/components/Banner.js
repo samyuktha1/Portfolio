@@ -47,6 +47,13 @@ export const Banner = () => {
     }
   }
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,7 +65,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Samuktha`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Masters Student at IIT", "Information Technology and Management", "Data Analytics and Management" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm pursuing a master's in Information Technology and Management, specializing in Data Analytics. Previously, I worked for a year at Zemoso as an Associate Software Engineer, developing a health management app using React, TypeScript, and Java. During a two-month internship, I immersed myself in learning diverse technologies, such as HTML, CSS, Git, TypeScript, JavaScript, Angular, and React.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={scrollToContact}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
@@ -66,7 +73,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img style={{ width: '1000px', height: '900px', paddingRight:'10px' }} src={headerImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>

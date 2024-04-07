@@ -16,6 +16,16 @@
     h1 {
       font-size: 100px;
       line-height: 88px;
+      color: gray;
+    }
+
+    .item1{
+      color: white;
+    }
+
+    .item2{
+      color:gray;
+      font-size:20px;
     }
 
     span {
@@ -52,12 +62,17 @@
       }
 
       button {
+        color:white;
         padding: 20px;
         border: none;
         background-color: orange;
         cursor: pointer;
         font-weight: 500;
+        transform: scale(1000) translateZ(10px);
       }
+      // button:hover {
+      //   background-color: gray; /* Replace with your desired color code */
+      // }
     }
   }
 }
