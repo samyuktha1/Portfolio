@@ -11,7 +11,7 @@
     {
       "id": "2",
       "src": "https://picsum.photos/800/600",
-      "title": "She Shield",
+      "title": "She Shield Android Application",
       "description": "Developed a women's safety app integrating Firebase for secure user authentication. Implemented continuous location monitoring for real-time updates to emergency contacts, significantly reducing response times.",
       "link":"https://github.com/samyuktha1/SheShieldApplication"
     },
@@ -20,7 +20,15 @@
       "id": "3",
       "src": "https://picsum.photos/800/600",
       "title": "Breast Cancer Detection DL",
-      "description": "Designed a deep learning breast cancer detection model, achieving 78% accuracy with a limited dataset. Also, introduced a 3D-printed microscope holder to local healthcare professionals, helping bridge data gaps for early detection"
+      "description": "Designed a deep learning breast cancer detection model, achieving 78% accuracy with a limited dataset. Also, introduced a 3D-printed microscope holder to local healthcare professionals, helping bridge data gaps for early detection",
+      "link":"https://github.com/samyuktha1/Deep-Learning"
+    },
+    {
+      "id": "4",
+      "src": "https://picsum.photos/800/600",
+      "title": "Car Sales Analysis using Data Mining",
+      "description": "Our projects aim was to create a model which predicts the car price given its description, age and features which would be helpful for potential buyers, sellers and manufactures know what the customer really wants.",
+      "link":"https://github.com/samyuktha1/CarAnalysis"
     }
   ]
 }

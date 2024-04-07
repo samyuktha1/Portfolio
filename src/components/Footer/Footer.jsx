@@ -30,9 +30,9 @@ const Footer = () => {
         </ul>
 
         <div className="social-icon1">
-                <a href="https://www.linkedin.com/in/nacham-samuktha-77aa83148/"><img src={linkedin} alt="" /></a>
+                <a href="https://www.linkedin.com/in/samuktha-nacham-77aa83148/"><img src={linkedin} alt="" /></a>
                 <a href="https://github.com/samyuktha1"><img src={github} alt=""  /></a>
-                <a href="https://drive.google.com/file/d/1xvcVQIn-KercImg-qAHigeC1tVFfMJFX/view?usp=sharing"><img src={resume} alt="" /></a>
+                <a href="https://docs.google.com/document/d/1dCZfBcPGo2ITHFMvYWLoUUnPh-orRYYYiZurqPL9sfQ/edit#bookmark=id.gjdgxs"><img src={resume} alt="" /></a>
               </div>
         <span className="footer_copy">
         © Samuktha Nacham . All rights reserved

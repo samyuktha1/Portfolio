@@ -4,9 +4,10 @@ import data from "../data/index.json";
 import ProjImg1 from "../assests/images/jobanalytics.jpeg";
 import ProjImg2 from "../assests/images/womensafety.png";
 import ProjImg3 from "../assests/images/deeplearning.jpeg";
+import ProjImg4 from "../assests/images/projImg4.png";
 
 export default function Projects() {
-  const projectImages = [ProjImg1, ProjImg2, ProjImg3];
+  const projectImages = [ProjImg1, ProjImg2, ProjImg3,ProjImg4];
 
   return (
     <div id="projects">
