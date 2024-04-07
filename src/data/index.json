@@ -3,23 +3,44 @@
     {
       "id": "1",
       "src": "https://picsum.photos/800/600",
+<<<<<<< HEAD
       "title": "Location based Job Analysis",
       "description": "Our project predicts salaries, analyzes job descriptions, and visualizes job trends. Through data preprocessing and modeling, we uncover insights into factors influencing salaries and geographical trends.",
       "link": "View In Github"
+=======
+      "title": "Location-Job Analysis",
+      "description": "Our project predicts salaries, analyzes job descriptions, and visualizes job trends. Through data preprocessing and modeling, we uncover insights into factors influencing salaries and geographical trends.",
+      "link":"https://drive.google.com/drive/u/0/folders/1BmRIAtPWJmcrfFt2Rudjy1HIdpVNMiY8"
+
+>>>>>>> origin/main
     },
     {
       "id": "2",
       "src": "https://picsum.photos/800/600",
       "title": "She Shield",
       "description": "Developed a women's safety app integrating Firebase for secure user authentication. Implemented continuous location monitoring for real-time updates to emergency contacts, significantly reducing response times.",
+<<<<<<< HEAD
       "link": "View In Github"
     },
+=======
+      "link":"https://github.com/samyuktha1/SheShieldApplication"
+    },
+
+>>>>>>> origin/main
     {
       "id": "3",
       "src": "https://picsum.photos/800/600",
       "title": "Breast Cancer Detection DL",
+<<<<<<< HEAD
       "description": "Designed a deep learning breast cancer detection model, achieving 78% accuracy with a limited dataset. Also, introduced a 3D-printed microscope holder to local healthcare professionals, helping bridge data gaps for early detection",
       "link": "View In Github"
     }
   ]
 }
+=======
+      "description": "Designed a deep learning breast cancer detection model, achieving 78% accuracy with a limited dataset. Also, introduced a 3D-printed microscope holder to local healthcare professionals, helping bridge data gaps for early detection"
+    }
+  ]
+}
+
+>>>>>>> origin/main

@@ -3,7 +3,7 @@ import "./Qualification.css";
 import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -143,7 +143,7 @@ const Qualification = () => {
                 Zemoso Technologies
               </span>
               <div className="qualification__calender">
-                <i className="uil uil-calender-alt"></i> Nov 2021 - Dec 2022
+                <i className="uil uil-calender-alt"></i> Dec 2020 - Dec 2022
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@ const Qualification = () => {
                 Accenture Technologies
               </span>
               <div className="qualification__calender">
-                <i className="uil uil-calender-alt"></i> April 2021 - Nov 2021
+                <i className="uil uil-calender-alt"></i> April 2020 - Nov 2020
               </div>
             </div>
             <div>

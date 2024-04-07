@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill{
   position: absolute;
-  top: 27%;
+  top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -457,6 +457,11 @@ Project Styles */
 }
 .portfolio--section--card:hover path {
   stroke: #006b6a;
+}
+
+.portfolio--card-link {
+  color: inherit; /* Use the text color of the parent container */
+  text-decoration: none; /* Remove underline */
 }
 
 
