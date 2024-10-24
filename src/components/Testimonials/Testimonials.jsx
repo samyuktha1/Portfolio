@@ -13,10 +13,10 @@ import Nptel from "../../assests/images/nptel.png";
 import IIT from "../../assests/images/iit.png";
 import NIT from "../../assests/images/nit.png";
 import KMIT from "../../assests/images/kmit.png";
-
+import AWS from "../../assests/images/aws.png";
 
 const Testimonials = () => {
-    const projectImages = [Oracle,BEC,Limca,BEC,Courseera,Nptel,IIT,Nptel,NIT,Nptel,NIT,KMIT,Courseera];
+    const projectImages = [Oracle,AWS,BEC,Limca,BEC,Courseera,Nptel,IIT,Nptel,NIT,Nptel,NIT,KMIT,Courseera];
     return (
         <section className="testimonials container section">
             <h2 className="section__title">Certifications</h2>

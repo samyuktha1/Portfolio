@@ -114,6 +114,26 @@ const Qualification = () => {
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }>
+
+<div className="qualification__data">
+            <div></div>
+
+            <div>
+              <span className="qualification__rounder"></span>
+              <span className="qualification__line"></span>
+            </div>
+            <div>
+              <h3 className="qualification__title">Software Developer Intern</h3>
+              <span className="qualification__subtitle">
+                Leap of Faith Technologies
+              </span>
+              <div className="qualification__calender">
+                <i className="uil uil-calender-alt"></i> May 2024 - Present
+              </div>
+            </div>
+          </div>
+
+              
           <div className="qualification__data">
             <div>
               <h3 className="qualification__title">Teaching Assistantship - Open Source Intelligent Device Application</h3>
