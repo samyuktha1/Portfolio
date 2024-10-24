@@ -573,7 +573,35 @@ Project Styles */
 .text-md{
 padding-top: 15px;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .portfolio--container-box {
+    display: flex;
+    flex-wrap: wrap; /* Ensure that the cards wrap properly on smaller screens */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Add some gap between the cards to avoid overlap */
+  }
 
+  .portfolio--section--card {
+    flex: 1 1 30%; /* Set each card to take up an equal amount of space */
+    max-width: 30%; /* Ensure each card has a consistent max-width */
+    height: auto; /* Allow the height to adjust automatically */
+    box-sizing: border-box; /* Include padding and borders in the card's total width/height */
+  }
+
+  /* Adjust the image container to ensure the size is consistent */
+  .portfolio--section--img-container {
+    height: 250px; /* Make the image height slightly smaller for better fit */
+    width: 100%; /* Ensure the image takes up the full width of the card */
+    overflow: hidden;
+  }
+
+  .portfolio--section--img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images maintain their aspect ratio and fill the container */
+  }
+}
 
 
 
