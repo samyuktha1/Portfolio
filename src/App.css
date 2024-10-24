@@ -235,6 +235,111 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav.navbar {
+    padding: 12px 0; /* Reduce padding to avoid collapse */
+  }
+
+  nav.navbar a.navbar-brand {
+    width: auto;
+    font-size: 24px; /* Adjust logo text size for smaller screens */
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 16px; /* Slightly reduce the font size of links */
+    padding: 0 10px; /* Adjust spacing for links */
+  }
+
+  .navbar-text button {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 14px; /* Adjust button font size */
+  }
+
+  .banner h1 {
+    font-size: 45px; /* Reduce banner title size */
+  }
+
+  .banner p {
+    font-size: 16px; /* Reduce banner text size */
+  }
+
+  .skill h2 {
+    font-size: 45px; /* Adjust skill title size */
+  }
+
+  .portfolio--section--img-container {
+    height: 250px; /* Adjust image container height */
+  }
+}
+
+/* Fix for 836px x 1500px specifically */
+@media only screen and (min-width: 820px) and (max-width: 850px) {
+  nav.navbar {
+    padding: 10px 0;
+  }
+
+  nav.navbar a.navbar-brand {
+    font-size: 22px; /* Ensure logo text is readable */
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 15px; /* Reduce font size for links */
+    padding: 0 8px; /* Ensure links have proper spacing */
+  }
+
+  .navbar-text button {
+    font-size: 13px; /* Adjust button text size */
+    padding: 8px 16px; /* Adjust button padding to prevent overflow */
+  }
+
+  .banner {
+    padding: 120px 0 80px 0; /* Adjust banner padding */
+  }
+
+  .banner h1 {
+    font-size: 42px; /* Adjust title size for smaller screens */
+  }
+
+  .banner p {
+    font-size: 15px; /* Adjust paragraph size */
+  }
+
+  .skill h2 {
+    font-size: 40px; /* Adjust skill section title */
+  }
+
+  .portfolio--section--img-container {
+    height: 240px; /* Adjust image height for this screen size */
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .banner {
+    padding: 120px 0 50px 0;
+  }
+
+  .banner h1 {
+    font-size: 35px;
+  }
+
+  .skill h2 {
+    font-size: 35px;
+  }
+
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .portfolio--section {
+    gap: 20px;
+  }
+
+  .portfolio--section--img-container {
+    height: auto;
+  }
+}
+
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
